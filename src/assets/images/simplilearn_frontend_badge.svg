@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <!-- Stylized card border and clipping mask path for the asymmetric corner -->
+  <path d="M 120,10 
+           L 350,10 
+           A 40,40 0 0,1 390,50 
+           L 390,350 
+           A 40,40 0 0,1 350,390 
+           L 50,390 
+           A 40,40 0 0,1 10,350 
+           L 10,120 
+           C 10,60 60,10 120,10 Z" 
+        fill="#fff9e6" 
+        stroke="#f29c1f" 
+        stroke-width="12" 
+        stroke-linejoin="round" />
+  
+  <!-- Header Bar with same top-left asymmetric curve -->
+  <path d="M 120,10 
+           L 350,10 
+           A 40,40 0 0,1 390,50 
+           L 390,120 
+           L 10,120 
+           L 10,120 
+           C 10,60 60,10 120,10 Z" 
+        fill="#0f2942" />
+  
+  <!-- Header text: Simplilearn SkillUp -->
+  <text x="205" y="80" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-weight="800" font-size="30" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">simplilearn</text>
+  
+  <!-- Content text: "Front End Dev" -->
+  <text x="200" y="195" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-weight="700" font-size="32" fill="#0f2942" text-anchor="middle" letter-spacing="-0.5">Front End</text>
+  <text x="200" y="238" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif" font-weight="700" font-size="32" fill="#f29c1f" text-anchor="middle" letter-spacing="-0.5">Development</text>
+  
+  <!-- Ribbon Badge Seal Group -->
+  <g transform="translate(130, 255)">
+    <!-- Ribbons -->
+    <path d="M 50,60 L 35,115 L 55,115 L 70,60 Z" fill="#da291c" stroke="#0f2942" stroke-width="2" />
+    <path d="M 90,60 L 105,115 L 85,115 L 70,60 Z" fill="#da291c" stroke="#0f2942" stroke-width="2" />
+
+    <!-- Gold Badge circle -->
+    <circle cx="70" cy="50" r="35" fill="#f29c1f" stroke="#0f2942" stroke-width="3" />
+    <circle cx="70" cy="50" r="28" fill="#ffffff" stroke="#0f2942" stroke-width="1.5" />
+    
+    <!-- Simplilearn vertical lines icon inside white circle -->
+    <g transform="translate(56, 38)">
+      <!-- Left cyan line -->
+      <rect x="5" y="6" width="4" height="16" rx="2" fill="#00c4cc" />
+      <!-- Center orange line (offset higher) -->
+      <rect x="12" y="2" width="4" height="20" rx="2" fill="#f29c1f" />
+      <!-- Right blue line (offset lower) -->
+      <rect x="19" y="8" width="4" height="14" rx="2" fill="#0f2942" />
+    </g>
+  </g>
+</svg>
