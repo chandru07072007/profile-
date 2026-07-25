@@ -171,7 +171,7 @@ export default function Footer({ onScrollToSection, onOpenContact, onOpenSubmiss
                   <Github size={16} />
                 </a>
                 <a 
-                  href="https://www.linkedin.com" 
+                  href="https://www.linkedin.com/in/chandru-p-393800374/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full border border-white/10 hover:border-white/30 hover:bg-neutral-900 flex items-center justify-center text-neutral-400 hover:text-white transition-all cursor-pointer"
