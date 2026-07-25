@@ -82,7 +82,7 @@ export default function About({ onOpenContact, onScrollToSection }: AboutProps) 
               </div>
               <div className="aspect-square bg-neutral-900 border border-white/5 overflow-hidden">
                 <img 
-                  src="/src/assets/images/regenerated_image_1784455952461.jpg" 
+                  src="/assets/images/regenerated_image_1784455952461.jpg" 
                   alt="Abstract Brutalist Graphic" 
                   className="w-full h-full object-cover grayscale brightness-75 contrast-125"
                   referrerPolicy="no-referrer"
@@ -105,7 +105,7 @@ export default function About({ onOpenContact, onScrollToSection }: AboutProps) 
             id="about-studio-img"
           >
             <img 
-              src="/src/assets/images/regenerated_image_1784455949487.jpg" 
+              src="/assets/images/regenerated_image_1784455949487.jpg" 
               alt="Photo Studio Setup" 
               className="w-full h-full object-cover grayscale contrast-110"
               referrerPolicy="no-referrer"

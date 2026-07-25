@@ -46,7 +46,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Expertise spans multi-tier architecture, hybrid cloud systems, secure VPC subnets, automated failovers, IAM governance, and modern serverless architectures using Lambda, API Gateway, and DynamoDB.",
       skills: ["VPC Peering", "Route53 DNS", "S3 Datalakes", "Serverless Layers", "IAM Compliance", "CloudFront CDN"],
       systemLoad: "99.99% Availability Architecture",
-      badgeImg: "/src/assets/images/regenerated_image_1784482410220.png"
+      badgeImg: "/assets/images/regenerated_image_1784482410220.png"
     },
     {
       id: "fastapi-python",
@@ -62,7 +62,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Expertise covers building automated Retrieval-Augmented Generation (RAG) indices, fine-tuning task-specific analytical models, designing LLM evaluation workflows, managing semantic caches, and optimizing vector database index routing.",
       skills: ["Generative AI", "RAG Pipelines", "Vector Databases", "LangChain Systems", "LLM Evaluation", "Data Analytics Streams"],
       systemLoad: "Enterprise AI Pipeline Integration",
-      badgeImg: "/src/assets/images/regenerated_image_1784486326848.png"
+      badgeImg: "/assets/images/regenerated_image_1784486326848.png"
     },
     {
       id: "n8n-automation",
@@ -78,7 +78,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Specialized in exploratory data analysis (EDA), multi-variable regressions, ANOVA, nonparametric tests, predictive analytics, statistical hypothesis validation, and integrating output data streams into real-time reporting layers.",
       skills: ["SPSS Statistics", "Quantitative Analysis", "Predictive Modeling", "Hypothesis Testing", "Regression Models", "Data Visualization"],
       systemLoad: "Statistical Computation Core Enabled",
-      badgeImg: "/src/assets/images/regenerated_image_1784487008911.png"
+      badgeImg: "/assets/images/regenerated_image_1784487008911.png"
     },
     {
       id: "industry-4-0",
@@ -94,7 +94,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Expertise covers building automated smart manufacturing factories, cyber-physical integration, designing robust telemetry layers with MQTT, CoAP, and OPC-UA, predictive system maintenance with advanced edge analytics, and securing cloud data integration pipelines.",
       skills: ["Industrial IoT", "Cyber-Physical Systems", "OPC-UA & MQTT", "Predictive Maintenance", "Edge Analytics", "VPC Gateways"],
       systemLoad: "Real-time Edge Telemetry Active",
-      badgeImg: "/src/assets/images/industry_4_0_badge.png"
+      badgeImg: "/assets/images/industry_4_0_badge.png"
     },
     {
       id: "mongodb-rag",
@@ -110,7 +110,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Specialized in configuring MongoDB Atlas Vector Search indices, generating and storing semantic text embeddings (via OpenAI & Gemini), executing approximate k-Nearest Neighbor (ANN) searches, constructing advanced hybrid search aggregation pipelines, and deploying robust AI production integrations.",
       skills: ["Atlas Vector Search", "Semantic Search", "OpenAI Embeddings", "RAG Architecture", "Document Databases", "Aggregation Pipelines"],
       systemLoad: "High-Performance Vector Indexes Active",
-      badgeImg: "/src/assets/images/mongodb_rag_badge.png"
+      badgeImg: "/assets/images/mongodb_rag_badge.png"
     },
     {
       id: "nptel-cloud-computing",
@@ -126,7 +126,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Successfully completed the intensive 12-week core graduate-level course covering cloud virtualization models, hypervisors, cloud storage hierarchies, resource management algorithms, SLA policies, cloud security standards, and hands-on Swayam-based platform configurations.",
       skills: ["Virtualization", "Cloud Security", "Distributed Storage", "Hypervisors", "SLA & Resource Pricing", "Swayam Platform"],
       systemLoad: "NPTEL Academic Certification",
-      badgeImg: "/src/assets/images/nptel_cloud_badge.png"
+      badgeImg: "/assets/images/nptel_cloud_badge.png"
     },
     {
       id: "frontend-dev",
@@ -142,7 +142,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
       detailedAnalysis: "Successfully completed the Simplilearn SkillUp program in Front End Development, covering modern HTML5, CSS3, JavaScript ES6+, responsive web design, DOM manipulation, component architecture, and web performance optimization.",
       skills: ["HTML5 & CSS3", "JavaScript ES6+", "Responsive Design", "DOM Manipulation", "UI Component Layout", "Web Performance"],
       systemLoad: "Verified Simplilearn SkillUp Credential",
-      badgeImg: "/src/assets/images/regenerated_image_1784823611574.png"
+      badgeImg: "/assets/images/regenerated_image_1784823611574.png"
     }
   ];
 
@@ -727,7 +727,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
                   onClick={() => {
                     if ((currentCert.id === "nptel-cloud-computing" || currentCert.id === "frontend-dev") && useUploadedPdf) {
                       const link = document.createElement("a");
-                      link.href = "/src/assets/images/Frontend%20.pdf";
+                      link.href = "/assets/images/Frontend%20.pdf";
                       link.download = `Front_End_Development_Certificate_${currentCert.licenseId}.pdf`;
                       document.body.appendChild(link);
                       link.click();
@@ -882,7 +882,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
                           </div>
 
                           <img 
-                            src="/src/assets/images/ch1.jpg" 
+                            src="/assets/images/ch1.jpg" 
                             referrerPolicy="no-referrer" 
                             className="w-16 h-20 sm:w-20 sm:h-24 object-cover border-2 border-neutral-300 rounded-xs shadow-sm bg-neutral-100" 
                             alt="CHANDRU P" 
@@ -1022,7 +1022,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
                     useUploadedPdf ? (
                       <div className="w-full h-full relative bg-neutral-800">
                         <iframe
-                          src="/src/assets/images/Frontend%20.pdf"
+                          src="/assets/images/Frontend%20.pdf"
                           className="w-full h-full border-0 block bg-white"
                           title="Original Certificate PDF"
                         />
@@ -1274,7 +1274,7 @@ export default function CertificationShowcasePage({ onClose }: CertificationShow
                     useUploadedPdf ? (
                       <div className="w-full h-full relative bg-neutral-800">
                         <iframe
-                          src="/src/assets/images/Frontend%20.pdf"
+                          src="/assets/images/Frontend%20.pdf"
                           className="w-full h-full border-0 block bg-white"
                           title="Original Front End Certificate PDF"
                         />

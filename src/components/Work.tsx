@@ -25,7 +25,7 @@ export default function Work({ onOpenContact, onOpenProjects }: WorkProps) {
       title: "MEDIVAULT AI AGENT",
       category: "Multi-Agent System",
       tags: ["Gemini AI", "React", "Node.js"],
-      image: "/src/assets/images/regenerated_image_1784454044724.png",
+      image: "/assets/images/regenerated_image_1784454044724.png",
       number: "02",
       liveUrl: "https://medipack-frontend.onrender.com/"
     },
@@ -54,7 +54,7 @@ export default function Work({ onOpenContact, onOpenProjects }: WorkProps) {
       title: "HYDROSENSE - SMART IRRIGATION",
       subtitle: "IOT WATER CONSERVATION BLUEPRINT",
       description: "Designed and engineered an automated smart irrigation telemetry dashboard utilizing custom soil sensors, dynamic flow triggers, and scheduling rules to optimize agricultural resource efficiency by up to 40%.",
-      image: "/src/assets/images/regenerated_image_1784454042892.jpg",
+      image: "/assets/images/regenerated_image_1784454042892.jpg",
       isCutCorner: true
     },
     {

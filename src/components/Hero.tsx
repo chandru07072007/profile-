@@ -169,7 +169,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             id="hero-stairs-card"
           >
             <img 
-              src="/src/assets/images/ch1.jpg" 
+              src="/assets/images/ch1.jpg" 
               alt="Chandru Portrait" 
               className="w-full h-full object-cover grayscale contrast-115 hover:scale-105 transition-transform duration-700 hover:grayscale-0"
               referrerPolicy="no-referrer"
